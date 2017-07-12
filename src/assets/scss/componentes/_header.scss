@@ -1,0 +1,62 @@
+
+#puppyHeader{
+
+	.column {
+		@include padding(0);
+	}
+
+}
+
+.hero {
+	background-image: url('/assets/img/banner.jpg');
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	text-align: center;
+	padding-top: 2.5em;
+	
+
+
+
+	&__description {
+		font-weight: 300;
+		font-size: 1em;
+		word-spacing: 0.2em;
+	}	
+	&__buttom {
+		background-color: $color4;
+		line-height: 2;
+		display: inline-block;
+		border-radius: 3px;
+		margin: .5em 0;
+		padding: 0 2.5em;
+	}
+
+
+	&__arrow {
+		margin-top: 5em;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		span {
+			margin-top: 1em;	
+			background-image: url('/assets/img/icons/arrow.svg');
+			background-repeat: no-repeat;
+			width: 30px;
+			height: 32px;
+			background-position: center;
+			
+		}
+
+
+	};
+
+
+	
+	
+
+}
+

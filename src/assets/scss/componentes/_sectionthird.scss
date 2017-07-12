@@ -1,0 +1,58 @@
+
+#thridPuppySection{
+
+	background-color: $color3;
+	text-align: center;
+
+}
+
+
+.pupyFeaturesDetails {
+	text-align: left;
+	padding: 4em;
+
+	&__tittle {
+	
+		margin: 0;
+	}
+
+	&__description {
+		font-weight: 300;
+
+	}
+
+	&__icon {
+		background-repeat: no-repeat;
+		width: 70px;
+		height: 32px;
+		background-position: center;
+		
+
+		&.bone-rotate {
+			background-image: url('/assets/img/icons/bone-rotate.svg')
+		}
+
+		&.pet-house{
+			background-image: url('/assets/img/icons/pet-house.svg')
+		}
+		
+		&.pet{
+			background-image: url('/assets/img/icons/pet.svg')
+		}
+
+		&.track{
+			background-image: url('/assets/img/icons/track.svg')
+		}
+		&.dog{
+			background-image: url('/assets/img/icons/dog.svg')
+		}
+
+		&.track-two{
+			background-image: url('/assets/img/icons/track-two.svg')
+		}
+	
+		
+
+	}
+}
+

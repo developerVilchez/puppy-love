@@ -1,0 +1,70 @@
+
+#firstPuppySection {
+	background-color: $color2;
+	text-align: center;
+	height: 500px;
+}
+
+.puppyPresentation {
+
+	padding-top: 4.5em;
+
+	&__title {
+		font-weight: 700;
+		line-height: 2;
+		word-spacing: .5em;
+		letter-spacing: .1em;
+		padding-bottom: 1em;
+	}
+
+
+	&__description{
+		margin-top: 2em;
+		font-weight: 300;
+		padding-bottom: 1em;
+		letter-spacing: .1em;	
+	}
+
+	&__icons {
+		margin-top: 3em;
+		text-align: center;
+		
+		
+		
+		div {
+			display: inline-block;
+			margin-left: 2em;
+
+		}
+
+
+		.collar {
+			background-image: url('/assets/img/icons/collar.svg');
+			background-repeat: no-repeat;
+			width: 70px;
+			height: 32px;
+			background-position: center;
+			
+			
+		}
+		.bone {
+			background-image: url('/assets/img/icons/bone.svg');
+			background-repeat: no-repeat;
+			width: 70px;
+			height: 32px;
+			background-position: center;
+		
+			
+		}
+		.pet-plate {
+			background-image: url('/assets/img/icons/pet-plate.svg');
+			background-repeat: no-repeat;
+			width: 70px;
+			height: 32px;
+			background-position: center;
+			
+			
+		}
+	}
+}
+

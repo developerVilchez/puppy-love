@@ -1,0 +1,16 @@
+//Base
+
+@import "variables";
+@import "functions";
+@import "mixins";
+@import "reset";
+@import "grilla";
+@import "base";
+
+
+//Secciones del proyecto
+	@import "componentes/header";	
+	@import "componentes/header";
+	@import "componentes/sectionfirst";
+	@import "componentes/sectionsecond";
+	@import "componentes/sectionthird";

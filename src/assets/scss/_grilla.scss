@@ -1,0 +1,27 @@
+// Ancho máximo de cada container
+		$container--max-width : 1400px;
+		
+	// Separación entre columns
+		$column--separacion : 30px;
+
+
+		$breakpoints: (
+			movil  : 480px,
+			tablet : 768px,
+			web    : 1024px,
+			hd     : 1400px
+			);
+
+	// Fracciones para los anchos de las columns.
+	
+		$fracciones: (
+			tercios : 3,
+			sextos  : 6,
+			octavos : 8
+			);
+
+	@import "grilla/grilla.scss";        
+	@import "grilla/mixinsGrilla";      
+	@import "grilla/utilisGrilla";
+	@import "grilla/visibilidadGrilla";
+	

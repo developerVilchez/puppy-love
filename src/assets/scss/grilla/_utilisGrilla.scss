@@ -1,0 +1,54 @@
+/*
+	ESTILOS DE LAYOUT
+	==================
+*/
+.centrar-column{
+	display: block;
+	clear: both;
+	float: none !important;
+	margin: 0 auto !important;
+}
+
+.centrar-texto,
+.centrar-contenido {
+	text-align: center;
+}
+
+.izquierda-texto,
+.izquierda-contenido {
+	text-align: left ;
+}
+
+.derecha-texto,
+.derecha-contenido {
+	text-align: right;
+}
+
+.left, .izquierda {
+	float: left;
+}
+
+.right, .derecha {
+	float: right;
+}
+
+/* 	NO PADDING
+	===========
+	class="no-padding" al container, le da padding cero a todas sus columns.
+	class="no-padding" al column le da padding cero solo a ella
+*/
+.no-padding.container > .column,
+.container > .no-padding {
+	padding: 0 !important;
+}
+
+/* Controlar el padding*/
+.padding {
+	padding-left: ($column--separacion / 2);
+	padding-right: ($column--separacion / 2);
+}
+
+.doble-padding {
+	padding-left: $column--separacion;
+	padding-right: $column--separacion;
+}

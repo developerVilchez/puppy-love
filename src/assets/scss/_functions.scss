@@ -1,0 +1,9 @@
+//Function que convierte pixeles a em
+
+@function em($el,$context:16px) {
+  @if type_of($el) == number and unit($el) == 'px' {
+    @return ($el / $context) * 1em;
+  } @else {
+    @error 'La función em() requiere una unidad de pixeles como primer argumento (el segundo es opcional)'
+  }
+}

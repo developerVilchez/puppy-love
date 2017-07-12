@@ -1,0 +1,7 @@
+En el archivo variables van los colores que vas a usar en el proyecto 
+los tamaños de fuentes 
+
+En el archivo base van todos los elementos html a los que aplicas estilos directo
+sin clases
+Tambien las fuentes del proyecto 
+Smacsss para css

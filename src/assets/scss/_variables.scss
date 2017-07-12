@@ -1,0 +1,36 @@
+	@import "functions";
+
+	//COLORES BASE
+		$color1 : #2C353E; //gris oscuro
+		$color2 : #2BB5AA; //verde
+		$color3:  #505393; //morado
+		$color4: #E74A35; //Color sandía
+
+		
+	// ESTILOS BASE
+		$body--background  : #fff; // fondo para el body
+		$body--font-family : 'Open Sans', sans-serif; // fuente predeterminada
+		$body--color       : #fff;// color de texto predeterminado
+
+	// ESTILOS DE ENCABEZADOS
+		$header--font-family    : 'Open Sans', sans-serif; // fuente para los headers (h1,h2,h3...)
+		$header--font-weight    : 400; // grosor de fuente para los headers
+		$header--text-transform : normal; // normal, uppercase, lowercase, capitalize
+		
+
+		$h1--font-size : em(42px);
+		$h2--font-size : em(28px);
+		$h3--font-size : em(18px);
+		$h4--font-size : em(16px);
+		$h5--font-size : em(14px);
+		$h6--font-size : em(12px);
+
+	// ESTIILOS DE ENLACES
+		$link--color : $color1;  // color para los enlaces
+
+	// ESTILOS DE PÁRRAFOS
+		$p--font-size   : em(16px); // Tamaño de fuente
+		$p--line-height : 1.4;  // Altura de línea
+		$p--margin      : em(16px); // Separación entre un párrafo y el siguiente
+
+	
